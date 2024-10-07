@@ -27,7 +27,7 @@ while True:
         c = int(input("Enter An Opion : "))
         if c == 1:
             name = input("Namne :")
-            email = input("Emaail :")
+            email = input("Email :")
             address = input("Address :")
             type = input("Account Type :")
             curr_user = admin.create_account(bank, name, email, address, type)
@@ -56,11 +56,11 @@ while True:
         print("6.Take Loan")
         print("7.Transfer Money")    
         
-        c = int(input("Enter An Option"))        
+        c = int(input("Enter An Option :"))        
         
         if c == 1:
             name = input("Namne :")
-            email = input("Emaail :")
+            email = input("Email :")
             address = input("Address :")
             type = input("Account Type :")
             curr_user = bank.create_account( name, email, address, type)
@@ -80,7 +80,7 @@ while True:
         elif c == 7:
             print("Give the receiver Information ")
             name = input("Namne :")
-            email = input("Emaail :")
+            email = input("Email :")
             address = input("Address :")
             account_type = input("Account Type :") 
             account_num = int(input("Account number :"))  
